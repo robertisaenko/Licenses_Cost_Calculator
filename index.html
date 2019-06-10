@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src='js/newscript.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="licenses">
+            <label class="plan">
+                <input type="radio" name="radio" value="13" license_plan="1" id="radio1">
+                <p class="license">License plan #1</p>
+                 <span class="checkmark"></span>
+            </label>
+            <p class="cost">$13 per license</p>
+        </div>
+        <div class="licenses">
+            <label class="plan">
+                <input type="radio" name="radio" value="22" license_plan="2" id="radio2">
+                <p class="license">License plan #2</p>
+                <span class="checkmark"></span>
+            </label>
+            <p class="cost">$22 per license</p>
+        </div>
+        <div class="licenses">
+            <label class="plan">
+            <input type="radio" name="radio" value="34" license_plan="3" id="radio3">
+            <p class="license">License plan #3</p>
+            <span class="checkmark"></span>
+            </label>
+            <p class="cost">$34 per license</p>
+        </div>
+        <hr>
+        <div class="number">
+            <p>Number of licenses: </p>
+            <div class="select_number">
+                <select id="selectNum">
+                    <option value="" selected="selected" hidden="hidden">-</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+        <div class="total">
+            <p>Total : <span id="total_sum">0$</span><sup class="currency">US</sup></p>
+        </div>
+        <div class="purchase">
+            <button class="purchase_btn">Buy now</button>
+        </div>
+        <div class="selected_plan">
+            <p>Selected plan: #<span id="selected_num">0</span></p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
