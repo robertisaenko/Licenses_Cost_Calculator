@@ -11,4 +11,4 @@ This is how it looks like when no license type and no amount are checked
 And this is how it looks like on devices with small screen sizes
 <br/>
 <br/>
-![Mobile version](screenshots/mobile.png)
+![Mobile version](screenshots/mobile-checked.png)
